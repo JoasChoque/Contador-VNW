@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+body {
+  background-color: rgb(245, 247, 249);
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+button {
+  width: 8vw;
+  height: 8vh;
+  margin: 3.8rem;
+  border-radius: 40px;
+  border: none;
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+}
+
+h1{
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+
+.incremento {
+  background-color: #198754;
+}
+
+.incremento:hover {
+  background-color: #157347;
+}
+
+.decremento {
+  background-color: #dc3545;
+}
+
+.decremento:hover {
+  background-color: #bb2d3b;
+}
+
+.btnReset {
+  background-color: #ffc107;
+  font-size: 1.5rem;
+}
+
+.btnReset:hover {
+  background-color: #ffca2c;
+  color: #000000;
+}
